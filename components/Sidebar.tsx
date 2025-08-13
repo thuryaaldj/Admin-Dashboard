@@ -23,6 +23,8 @@ const Sidebar = () => {
     return (
 
 <Command className="bg-secondary rounded-none">
+{/* <CommandDialog open={open} onOpenChange={setOpen}> */}
+{/* <CommandDialog> */}
 <CommandInput placeholder="Type a command or search..." />
 <CommandList>
     <CommandEmpty>No results found.</CommandEmpty>
@@ -61,6 +63,7 @@ const Sidebar = () => {
     </CommandGroup>
 
 </CommandList>
+{/* </CommandDialog> */}
 </Command>
 );}
 

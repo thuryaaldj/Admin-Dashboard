@@ -10,21 +10,27 @@ import {
 
 const PostsPagination = () => {
     return (<Pagination>
-  <PaginationContent>
+<PaginationContent>
     <PaginationItem>
-      <PaginationPrevious href="#" />
+        <PaginationPrevious href="#" />
     </PaginationItem>
     <PaginationItem>
-      <PaginationLink href="#">1</PaginationLink>
+        <PaginationLink href="#">1</PaginationLink>
+    </PaginationItem>
+        <PaginationItem>
+        <PaginationLink href="#">2</PaginationLink>
+    </PaginationItem>
+        <PaginationItem>
+        <PaginationLink href="#">3</PaginationLink>
     </PaginationItem>
     <PaginationItem>
-      <PaginationEllipsis />
+        <PaginationEllipsis />
     </PaginationItem>
     <PaginationItem>
-      <PaginationNext href="#" />
+        <PaginationNext href="#" />
     </PaginationItem>
-  </PaginationContent>
+</PaginationContent>
 </Pagination>);
 }
- 
+
 export default PostsPagination;
